@@ -178,7 +178,7 @@
         <div class="field"><label>Categoría</label>
           <select id="exp-cat">
             <option>🛒 Mercado</option>
-            <option>🏠 Alquiler</option>
+            <option>🏋️ Crossfit</option>
             <option>💡 Servicios</option>
             <option>👥 Comidas en grupo</option>
             <option>💑 Citas</option>
@@ -303,14 +303,14 @@
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
   import { getFirestore, collection, addDoc, deleteDoc, doc, onSnapshot, setDoc, getDoc, serverTimestamp, query, orderBy } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAtSb341qhiP4nnruaL8QWS2muJX5i7-Lc",
-  authDomain: "casita-62291.firebaseapp.com",
-  projectId: "casita-62291",
-  storageBucket: "casita-62291.firebasestorage.app",
-  messagingSenderId: "123707170276",
-  appId: "1:123707170276:web:12e91cc73d01d8572abbf1"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyARFzatgt5q6u8mVdcAgg_0qCCFbPaq_j0",
+    authDomain: "casita-82c07.firebaseapp.com",
+    projectId: "casita-82c07",
+    storageBucket: "casita-82c07.firebasestorage.app",
+    messagingSenderId: "1078761718387",
+    appId: "1:1078761718387:web:6205e4d94e4b5b79b52006"
+  };
 
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
@@ -326,7 +326,7 @@ const firebaseConfig = {
   const MONTHS = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
   const CATS = {
     '🛒 Mercado': '🛒',
-    '🏠 Alquiler': '🏠',
+    '🏋️ Crossfit': '🏋️',
     '💡 Servicios': '💡',
     '👥 Comidas en grupo': '👥',
     '💑 Citas': '💑',
